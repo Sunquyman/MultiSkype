@@ -90,4 +90,8 @@ III. Credits
 Thanks to patorjk and his ASCII text generator, at patorjk.com/software/taag. 
 Font used in title: ANSI Shadow
 
+Please contact me about any bugs or questions, at: admin@sunquyman.xyz
+Follow me on Github! https://github.com/Sunquyman
+And visit me at: sunquyman.xyz
 
+-Sunquyman
