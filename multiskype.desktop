@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=MultiSkype
+Path=[add path to this folder here]MultiSkype/
+Exec=gnome-terminal -e "bash -c '[add path here too]/MultiSkype/skypelogin.sh;$SHELL'"
+Icon=[and here as well]/MultiSkype/img/multiskype.png
+Terminal=false
