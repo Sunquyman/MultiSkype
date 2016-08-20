@@ -23,8 +23,11 @@ II. How to Setup/Use
       1. Adding Accounts and Encryption
       2. Running MultiSkype
       3. (Optional) Setting up the .desktop file
+      4. Notes
 
-III. Credits
+III. Recommendations/Troubleshooting
+
+IV. Credits
 
 
 =======================================================
@@ -56,7 +59,22 @@ Run MultiSkype (Encryption).exe and follow the instructions.
 
 2. Running MultiSkype
 
-Simply run MultiSkype (Login).exe, and provide the master key you encrypted
+Run MultiSkype (Login).exe. You should be prompted with two options: 
+ 
+   -Skype Autofills Username Box?
+   -Enable Logging
+
+"Skype Autofills Username Box?", the first option is checked by default, and 
+should be checked if Skype initializes with an already filled-in username. Some 
+Skype builds seem to fail to autofill, so this option is there to account for it. 
+
+"Enable Logging" will simply enable the program's logging functionality. If 
+something is breaking, you can look at the log file to see where the program
+goes awry, or send me the log file so I can take care of it the bug. NOTE: If
+you do send me your log file, please remove the sensitive information from it.
+The log file is located in logs/multiskypelog.txt.
+
+After this, press "Execute MultiSkype!", and provide the master key you encrypted
 your accounts with earlier. Due to the nature of the program, you risk breaking 
 the flow of the program if you click around.
 
@@ -84,8 +102,19 @@ the filepath.
 
 More info here: http://askubuntu.com/questions/60667/apply-icons-to-bash-scripts
 
+4. Notes
 
-III. Credits
+Currently, logging is not avaliable for the Linux .sh, but should not really be
+needed.
+
+
+III. Recommendations/Troubleshooting 
+
+Please disable Skype's auto-login feature, as it can interfere with the runnning
+of the program. 
+
+
+IV. Credits
 
 Thanks to patorjk and his ASCII text generator, at patorjk.com/software/taag. 
 Font used in title: ANSI Shadow
@@ -93,5 +122,6 @@ Font used in title: ANSI Shadow
 Please contact me about any bugs or questions, at: admin@sunquyman.xyz
 Follow me on Github! https://github.com/Sunquyman
 And visit me at: sunquyman.xyz
+MultiSkype Page: http://sunquyman.xyz/multiskype/
 
 -Sunquyman
